@@ -1,0 +1,76 @@
+:root {
+background-image: url("./assets/fondo1.jpg");
+color:aliceblue;
+font-family: Montserrat;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header_main{
+  height: 100vh;
+}
+
+.span-typeit{
+  font-size: 48px;
+  height:80px;
+}
+
+.div_socials{
+  display: flex;
+  flex-direction: row;
+}
+
+.grid_box h1{
+  color:#031428;
+  
+}
+
+.motion_grid{
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.motion_grid2{
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  justify-content: center;
+}
+
+.motion_grid3{
+  text-align: center;
+  width: 540px;
+  height: 100%;
+  justify-content: center;
+}
+
+
+.span_aboutme{
+  font-size: 24px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.text_underlined{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.aboutme_titles{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid_box h1 {
+    font-size: 24px;
+    padding: 24px;
+    margin:8px;
+  }
+  .span-typeit{
+    font-size: 40px;
+  }
+}
+
