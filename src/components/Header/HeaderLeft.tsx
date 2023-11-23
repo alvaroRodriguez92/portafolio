@@ -31,7 +31,7 @@ export default function HeaderLeft() {
         <motion.div
           whileHover={{ scale: 1.3 }}
         >
-          <a href="#">
+          <a target="_blank" href="https://github.com/alvaroRodriguez92">
             <GitHubIcon
               fontSize="large"
               color="primary"
@@ -42,7 +42,7 @@ export default function HeaderLeft() {
         <motion.div
           whileHover={{ scale: 1.3 }}
         >
-          <a href="#">
+          <a target="_blank" href="https://www.linkedin.com/in/alvaro-rodriguez-fullstackdeveloper/">
             <LinkedInIcon
               color="primary"
               fontSize="large"

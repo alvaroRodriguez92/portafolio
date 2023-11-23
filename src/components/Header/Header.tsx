@@ -14,13 +14,16 @@ export default function Header() {
         transition={{ duration: 2 }}
       >
         <Grid
+        className="grid_header"
           container
           sx={{
-            mt: 9,
+            
             display: "flex",
             flexDirection: "row",
             p: 5,
-            justifyContent: "center",
+            justifyContent: "flex-start",
+            gap:"144px",
+            flexWrap:"nowrap"
           }}
         >
           <HeaderLeft />

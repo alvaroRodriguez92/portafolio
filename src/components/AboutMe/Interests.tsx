@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 
 export default function Interests() {
   return (
-    <List sx={{ width: "100%", maxWidth: 360, bgcolor: "aliceblue" }}>
+    <List sx={{ width: "100%", maxWidth: 360, bgcolor: "aliceblue", borderRadius:"16px" }}>
       <ListItem alignItems="center">
         <ListItemAvatar>
           <Avatar

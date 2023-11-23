@@ -15,18 +15,27 @@ export default function Education() {
           <Avatar alt="Releevant" src="../../src/assets/releevant.png" />
         </ListItemAvatar>
         <ListItemText
-          primary="Bootcamp"
+          primary={<React.Fragment>
+            <Typography
+              sx={{ display: 'inline' }}
+              component="span"
+              variant="h6"
+              color="text.primary"
+            >
+              Bootcamp
+            </Typography>
+          </React.Fragment>}
           secondary={
             <React.Fragment>
               <Typography
                 sx={{ display: 'inline' }}
                 component="span"
-                variant="body2"
+                variant="body1"
                 color="text.primary"
               >
-                Releevant
+                Releevant 
               </Typography>
-              {" — Full stack Web Developer"}
+              {" — Full Stack Web Developer"}
             </React.Fragment>
           }
         />
@@ -37,13 +46,22 @@ export default function Education() {
           <Avatar alt="uma" src="../../src/assets/uma.png" />
         </ListItemAvatar>
         <ListItemText
-          primary="University Degree"
+          primary={<React.Fragment>
+            <Typography
+              sx={{ display: 'inline' }}
+              component="span"
+              variant="h6"
+              color="text.primary"
+            >
+              University Degree
+            </Typography>
+          </React.Fragment>}
           secondary={
             <React.Fragment>
               <Typography
                 sx={{ display: 'inline' }}
                 component="span"
-                variant="body2"
+                variant="body1"
                 color="text.primary"
               >
                 UMA (University of Malaga)

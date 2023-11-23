@@ -1,31 +1,40 @@
 :root {
-background-image: url("./assets/fondo1.jpg");
-color:aliceblue;
-font-family: Montserrat;
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url("./assets/fondo1.jpg");
+  color: aliceblue;
+  font-family: Montserrat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
 }
 
-.header_main{
+.header_main {
   height: 100vh;
 }
-
-.span-typeit{
-  font-size: 48px;
-  height:80px;
+.link_scroll{
+  text-decoration: none;
+  width: 100%;
 }
 
-.div_socials{
+.span-typeit {
+  font-size: 48px;
+  height: 80px;
+}
+
+.div_socials {
   display: flex;
   flex-direction: row;
 }
 
-.grid_box h1{
-  color:#031428;
-  
+.grid_box h1 {
+  color: #031428;
 }
 
-.motion_grid{
+.motion_grid {
   text-align: center;
   width: 50%;
   height: 100%;
@@ -33,44 +42,220 @@ background-size: cover;
   display: flex;
 }
 
-.motion_grid2{
+.motion_grid2 {
   text-align: center;
-  width: 33%;
   height: 100%;
   justify-content: center;
+  width: 528px;
 }
 
-.motion_grid3{
+.motion_grid3 {
   text-align: center;
-  width: 540px;
+  width: 40%;
   height: 100%;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
-
-.span_aboutme{
+.span_aboutme {
   font-size: 24px;
   font-weight: 300;
   width: 100%;
+  text-align: center;
 }
 
-.text_underlined{
+.text_underlined {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
-.aboutme_titles{
+.aboutme_titles {
   font-size: 24px;
   font-weight: 800;
 }
 
-@media only screen and (max-width: 600px) {
+.motion_button {
+  padding: 8px;
+  border-radius: 4px;
+  font-family: "Monserrat";
+  font-size: 16px;
+  font-weight: 500;
+  background-color: aliceblue;
+}
+
+.skill_title {
+  font-size: 24px;
+}
+
+.link_summarooms {
+  color: #4c6f27;
+}
+
+.motion_resource {
+  border: 3px solid #0875088f;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 32px;
+  width: 20%;
+}
+
+.download_a {
+  width: 70%;
+}
+
+.link_footer{
+  color:aliceblue;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
   .grid_box h1 {
     font-size: 24px;
     padding: 24px;
-    margin:8px;
+    margin: 8px;
   }
-  .span-typeit{
+  .span-typeit {
     font-size: 40px;
+  }
+
+  .grid_header {
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .motion_grid3 {
+    width: 100% !important;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .motion_resource {
+    width: 90%;
+  }
+
+  .header_main {
+    margin-bottom: 336px;
+  }
+
+  .span_aboutme {
+    font-size: 16px;
+  }
+
+  .grid_aboutme {
+    max-width: 320px;
+  }
+
+  .education_responsive {
+    max-width: 304px !important;
+    margin: 8px !important;
+  }
+
+  .grid_interests {
+    width: 304px !important;
+  }
+  .interest_responsive {
+    flex-direction: column;
+  }
+  .download_responsive {
+    margin-left: 0 !important;
+  }
+
+  .skills_responsive {
+    align-content: center;
+    margin-bottom: 80px !important;
+  }
+
+  .frontend_responsive {
+    width: 360px;
+  }
+  .backend_ddbb_responsive {
+    gap: 40px !important;
+    justify-content: center;
+  }
+  .otherskills_responsive {
+    width: 360px;
+  }
+  .grid_projects {
+    flex-direction: column !important;
+    padding: 8px !important;
+  }
+  .projectvideo_responsive {
+    width: 100%;
+    height: 160px;
+  }
+  .grid_text_projects {
+    max-width: 304px !important;
+    align-items: center !important;
+  }
+  .grid_button_projects {
+    justify-content: center !important;
+    margin-bottom: 16px !important;
+  }
+  .grid_resource {
+    flex-direction: column !important;
+    width: 140%;
+    margin: 0 auto !important;
+  }
+  .grid_resource_2 {
+    align-content: center;
+  }
+  .grid_resources_responsive {
+    padding: 8px !important;
+  }
+  .grid_footer {
+    margin-bottom: 160px !important;
+    gap: 32px !important;
+  }
+  .footer_item {
+    margin: 8px !important;
   }
 }
 
+@media only screen and (max-width: 996px) {
+  .motion_resource {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .motion_grid3 {
+    width: 80%;
+  }
+
+  .backend_ddbb_responsive {
+    gap: 80px !important;
+  }
+
+  .download_responsive {
+    margin-left: 0 !important;
+  }
+
+  .grid_footer {
+    margin-bottom: 160px !important;
+    gap: 32px !important;
+  }
+  .footer_item {
+    margin: 8px !important;
+  }
+  .grid_header {
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  .grid_about {
+    margin-top: 200px !important;
+  }
+
+  .grid_resource {
+    flex-wrap: wrap;
+  }
+
+  .motion_resource {
+    width: 40%;
+  }
+}
